@@ -23,10 +23,11 @@ node --version && npm --version
 1. **Clone the repo**
 
    ```bash
+   git clone [https://github.com/NgrTushar/p2p-file-transfer.git](https://github.com/NgrTushar/p2p-file-transfer.git)
+   cd p2p-file-transfer
    ```
 
-git clone [https://github.com/NgrTushar/p2p-file-transfer.git](https://github.com/NgrTushar/p2p-file-transfer.git)
-cd p2p-file-transfer
+
 
 ````
 
@@ -41,11 +42,12 @@ The server listens at `ws://0.0.0.0:8000/ws`.
 3. **Start the frontend**
 
    ```bash
+   cd frontend
+   npm install      # or yarn install
+   npm run dev      # or yarn dev
    ```
 
-cd frontend
-npm install      # or yarn install
-npm run dev      # or yarn dev
+
 
 ```
    Open `http://localhost:3000` in your browser.
